@@ -293,4 +293,27 @@ img {
   display: flex;
   justify-content: space-between;
   font-size: 0.9rem;
+
+}
+
+/* Tablet view (max width 768px) */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column; /* Boxes go vertical */
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+}
+
+/* Phone view (max width 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px; /* Smaller text */
+    }
+
+    .box {
+        padding: 15px;
+    }
 }
